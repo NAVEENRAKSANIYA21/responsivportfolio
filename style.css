@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hmtl,
+body {
+  background-color: #0e0e0e;
+  color: white;
+}
+
+.navbar {
+  background-color: #1b1a18;
+  width: 100%;
+  height: 10vh;
+  margin-top: 10px;
+  color: #dac5a7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  opacity: 0.9;
+  position: fixed;
+  z-index: 1;
+  border-radius: 200px;
+}
+.navbar nav a {
+  text-decoration: none;
+  color: #dac5a7;
+  font-size: 13px;
+  padding: 5px;
+}
+.navbar button {
+  display: none;
+}
+
+.section1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #dac5a7;
+  text-align: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section1 .image {
+  width: 70%;
+  height: 50vh;
+  margin-top: 30px;
+}
+.section1 .image img {
+  width: 100%;
+}
+.section1 h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px 20px 10px 20px;
+  font-weight: 50;
+}
+.section1 p {
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: bold;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0px 20px 0px 20px;
+  opacity: 0.8;
+}
+.section1 .button {
+  width: 100%;
+  margin: 30px 20px 50px 20px;
+}
+
+.servicecard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicecard .card {
+  width: 90%;
+  height: 50vh;
+  background-color: #181716;
+  color: #b6a58c;
+  margin: 10px;
+  padding: 40px;
+  border-right: 1px solid #b6a58c;
+  border-left: 1px solid #b6a58c;
+}
+.servicecard .card p {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.8;
+}
+.servicecard .card h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+  font-weight: 30;
+}
+.servicecard .card h3 {
+  font-size: 1rem;
+  margin-top: 30px;
+  text-align: center;
+}
+
+@media (min-width: 1020px) {
+  .navbar a {
+    padding: 10px;
+  }
+  .navbar button {
+    display: block;
+    color: white;
+    padding: 10px;
+    background-color: #dac5a7;
+    border: none;
+    cursor: pointer;
+  }
+  .section1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #dac5a7;
+  }
+  .section1 .image {
+    width: 40%;
+    height: auto;
+  }
+  .section1 .image img {
+    width: 100%;
+  }
+  .section1 h1 {
+    font-size: 7rem;
+  }
+  .section1 p {
+    width: 40%;
+    margin-top: 20px;
+  }
+  .section1 .button p {
+    width: 100%;
+  }
+  .servicecard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .servicecard .card {
+    width: 30%;
+    height: 50vh;
+    margin: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
